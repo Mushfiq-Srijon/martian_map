@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "planet": "Mars",
+  "tile_size": 256,
+  "global_extent_m": [-10669675.197320545, -5334837.598660273, 10669675.197320545, 5334837.598660273],
+  "layers": [
+    {
+      "id": "elevation_shaded",
+      "name": "Shaded elevation",
+      "description": "Global terrain height from MOLA, with hillshade showing ridges and craters.",
+      "kind": "elevation",
+      "source_file": "Mars_MGS_MOLA_DEM_mosaic_global_463m.tif",
+      "source_credit": "MOLA gridded DEM (Mars Global Surveyor), USGS Astropedia",
+      "min_zoom": 0,
+      "max_zoom": 6,
+      "default_visible": true,
+      "opacity": 1.0,
+      "shading": {
+        "azimuth_deg": 315,
+        "altitude_deg": 45,
+        "ambient": 0.3
+      },
+      "colour_stops": [
+        { "elevation_m": -8000, "rgb": [52, 36, 62] },
+        { "elevation_m": -4000, "rgb": [98, 58, 60] },
+        { "elevation_m": -2000, "rgb": [140, 74, 52] },
+        { "elevation_m": 0, "rgb": [178, 104, 68] },
+        { "elevation_m": 2000, "rgb": [204, 136, 92] },
+        { "elevation_m": 5000, "rgb": [222, 170, 126] },
+        { "elevation_m": 10000, "rgb": [234, 205, 176] },
+        { "elevation_m": 15000, "rgb": [242, 230, 214] },
+        { "elevation_m": 21500, "rgb": [252, 248, 240] }
+      ]
+    }
+  ]
+}

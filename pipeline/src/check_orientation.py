@@ -10,7 +10,7 @@ from rasterio.windows import Window
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 RAW = REPO_ROOT / "data" / "raw" / "Mars_MGS_MOLA_DEM_mosaic_global_463m.tif"
-PREVIEW = REPO_ROOT / "data" / "processed" / "tiles" / "preview_z3.png"
+PREVIEW = REPO_ROOT / "data" / "processed" / "previews" / "elevation_shaded.png"
 
 MARS_RADIUS_M = 3396190.0
 
